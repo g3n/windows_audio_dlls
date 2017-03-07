@@ -36,7 +36,7 @@ run your application and avoid copying them to the Windows system directory.
    the MS compiler and tools.
 
 5. In the command prompt, change to the build directory inside the openal
-   directory. Then execute the following command:
+   directory. Then execute one the following commands:
    ```
    >cmake -G "Visual Studio 14 2015 Win64" ..   # TO BUILD 64 bit dll OR`
    >cmake -G "Visual Studio 14" ..              # TO BUILD 32 bit dll`
@@ -54,31 +54,33 @@ run your application and avoid copying them to the Windows system directory.
    being built.
    If everything is OK, the *OpenAL.dll* file should be in the directory "build/Release".
     
-7. Download libogg and libvorbis from https://xiph.org/downloads/
+7. Download libogg and libvorbis from https://xiph.org/downloads/.
    We used the versions:
    - http://downloads.xiph.org/releases/ogg/libogg-1.3.2.zip and
    - http://downloads.xiph.org/releases/vorbis/libvorbis-1.3.5.zip
 
 8. Decompress both files in a directory and rename the decompressed
    directories names removing the version prefix:
-   libogg-1.3.2 -> libogg
-   libvorbis-1.3.5 -> libvorbis
+   ```
+   rename libogg-1.3.2 libogg
+   rename libvorbis-1.3.5 libvorbis
+   ```
 
 9. Execute Visual Studio and from its menu, select *Open -> Project/Solution...*
-   Selects the file *libogg\win32\VS2010\libogg_dynamic.sln*.
+   Selects the file `libogg\win32\VS2010\libogg_dynamic.sln`.
    In the Visual Studio tool box, below the menu, select the build mode "Release". 
    Also in the menu box, select the desired architecture: Win32 or x64.
    Then select the menu *Build -> Build Solution* when the project will start
    being built.
    If everything is OK, the *libogg.dll* file should be in the directory:
-   "libogg\win32\VS2010\x64\Release" for 64 bits or
-   "libogg\win32\VS2010\Win32\Release" for 64 bits or
+   `libogg\win32\VS2010\x64\Release` for 64 bits or
+   `libogg\win32\VS2010\Win32\Release` for 64 bits or
 
 10. Execute Visual Studio and from its menu, select *Open -> Project/Solution...*
    Selects the file `libvorbis\win32\VS2010\vorbis_dynamic.sln`.
    In the Visual Studio tool box, below the menu, select the build mode *Release*. 
    Also in the menu box, select the desired architecture: Win32 or x64.
-   Then select the menu Build -> Build Solution when the project will start
+   Then select the menu *Build -> Build Solution* when the project will start
    being built.
    If everything is OK, the libvorbis.dll and libvorbisfile.dll should be in the directory:
    `libvorbis\win32\VS2010\x64\Release` for 64 bits or
