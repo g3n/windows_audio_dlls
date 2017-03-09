@@ -87,6 +87,9 @@ run your application and avoid copying them to the Windows system directory.
    Also in the menu box, select the desired architecture: Win32 or x64.
    Then select the menu *Build -> Build Solution* when the project will start
    being built.
+   If during the build Visual Studio indicates an error related to
+   installed platform toolset you may need to retarget the solution,
+   selecting the menu *Project -> Retarget solution"* and the try the build again.
    If everything is OK, the *libogg.dll* file should be in the directory:
    `libogg\win32\VS2010\x64\Release` for 64 bits or
    `libogg\win32\VS2010\Win32\Release` for 64 bits or
@@ -97,6 +100,9 @@ run your application and avoid copying them to the Windows system directory.
    Also in the menu box, select the desired architecture: Win32 or x64.
    Then select the menu *Build -> Build Solution* when the project will start
    being built.
+   If during the build Visual Studio indicates an error related to
+   installed platform toolset you may need to retarget the solution,
+   selecting the menu *Project -> Retarget solution"* and the try the build again.
    If everything is OK, the libvorbis.dll and libvorbisfile.dll should be in the directory:
    `libvorbis\win32\VS2010\x64\Release` for 64 bits or
    `libvorbis\win32\VS2010\Win32\Release` for 64 bits or
