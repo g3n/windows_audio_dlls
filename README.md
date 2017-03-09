@@ -2,10 +2,10 @@
 
 The G3N engine audio support currently depends on the following external libraries:
 
-- openal        - for spatial audio
-- libogg        - for Ogg container format
-- libvorbis     - for vorbis decoder support
-- libvorbisfile - for reading/decoding ogg vorbis files
+- `OpenAL`        - for spatial audio
+- `libogg`        - for Ogg container format
+- `libvorbis`     - for vorbis decoder support
+- `libvorbisfile` - for reading/decoding ogg vorbis files
 
 These libraries are easily installed in Linux systems using the distribution package manager.
 
@@ -82,7 +82,7 @@ run your application and avoid copying them to the Windows system directory.
 
 9. Execute *Visual Studio* and from its menu select *Open -> Project/Solution...*.
    Select the file `libogg\win32\VS2010\libogg_dynamic.sln`.
-   In the Visual Studio tool box, below the menu, select the build mode *Release*. 
+   In the *Visual Studio* tool box, below the menu, select the build mode *Release*. 
    Also in the tool box select the desired architecture: Win32 or x64.
    Then select the menu *Build -> Build Solution* to start the build.
    If during the build *Visual Studio* indicates an error related to
@@ -90,7 +90,7 @@ run your application and avoid copying them to the Windows system directory.
    selecting the menu *Project -> Retarget solution"* and then try the build again.
    If everything is OK, then `libogg.dll` file should be in the directory:
    `libogg\win32\VS2010\x64\Release` for 64 bits or
-   `libogg\win32\VS2010\Win32\Release` for 64 bits or
+   `libogg\win32\VS2010\Win32\Release` for 32 bits.
 
 10. Execute *Visual Studio* and from its menu select *Open -> Project/Solution...*.
    Select the file `libvorbis\win32\VS2010\vorbis_dynamic.sln`.
@@ -102,7 +102,7 @@ run your application and avoid copying them to the Windows system directory.
    selecting the menu *Project -> Retarget solution"* and then try the build again.
    If everything is OK, then `libvorbis.dll` and `libvorbisfile.dll` should be in the directory:
    `libvorbis\win32\VS2010\x64\Release` for 64 bits or
-   `libvorbis\win32\VS2010\Win32\Release` for 64 bits or
+   `libvorbis\win32\VS2010\Win32\Release` for 32 bits.
 
 11. Copy the dlls: `OpenAL32.dll, libogg.dll, libvorbis.dll` and `libvorbisfile.dll`
     to the directory from which you will execute a G3N application.
