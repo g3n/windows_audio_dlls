@@ -13,17 +13,17 @@ For Windows you can build these libraries from sources using the following proce
 or if you are a trusting person you can simply use the dlls in this directory which were
 built using this procedure.
 
-In any case, its recommended that you copy these dlls to the directory from which will
+In any case it is recommended that you copy these dlls to the directory from which will
 run your application and avoid copying them to the Windows system directory.
 
 # Guide for building the Windows audio dlls
 
 1. Download and install *Microsoft Studio Community* from https://www.visualstudio.com/downloads/.
-   I am assuming here that *Microsoft Studio 2017* will be used.
+   Wer are assuming here that *Microsoft Studio 2017* will be used.
 
 2. Download and install *CMake* from https://cmake.org/download/
 
-3. Download *OpenAL* soft from http://kcat.strangesoft.net/openal-releases/openal-soft-1.17.2.tar.bz2
+3. Download *OpenAL soft* from http://kcat.strangesoft.net/openal-releases/openal-soft-1.17.2.tar.bz2
    and decompress it in a folder. You may need a tool to decompress the file such as http://www.7zip.org.
    Alternatively you can clone the git respository: https://github.com/kcat/openal-soft
    and checkout the latest tagged release:
@@ -46,12 +46,12 @@ run your application and avoid copying them to the Windows system directory.
    If everything is OK, a file *OpenAL.sln* should have been generated in this
    directory between many others.
 
-6. Execute *Visual Studio* and from its menu, select *Open -> Project/Solution...*
-   Selects the file *OpenAL.sln* generated previously by *CMake*.
+6. Execute *Visual Studio* and from its menu select *Open -> Project/Solution...*.
+   Select the file *OpenAL.sln* generated previously by *CMake*.
    In the *Visual Studio* tool box, below the menu, select the build mode *Release*. 
    Also in the tool box select the desired architecture: Win32 or x64.
    Then select the menu *Build -> Build Solution* to start the build.
-   If everything is OK, the *OpenAL.dll* file should be in the directory `build/Release`.
+   If everything is OK the `OpenAL.dll` file should be in the directory `build/Release`.
     
 7. Download *libogg* and *libvorbis* from https://xiph.org/downloads/.
    We used the versions:
@@ -88,7 +88,7 @@ run your application and avoid copying them to the Windows system directory.
    If during the build *Visual Studio* indicates an error related to
    the installed platform toolset you may need to retarget the solution,
    selecting the menu *Project -> Retarget solution"* and then try the build again.
-   If everything is OK, then `libogg.dll` file should be in the directory:
+   If everything is OK then `libogg.dll` file should be in the directory:
    `libogg\win32\VS2010\x64\Release` for 64 bits or
    `libogg\win32\VS2010\Win32\Release` for 32 bits.
 
