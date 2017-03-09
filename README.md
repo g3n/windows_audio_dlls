@@ -68,7 +68,7 @@ run your application and avoid copying them to the Windows system directory.
 
    It is important that the source for both libraries are decompressed in the same
    directory:
-   ``
+   ```
    + parent_directory
       + libogg
          + doc
@@ -78,7 +78,7 @@ run your application and avoid copying them to the Windows system directory.
          + doc
          + include
          ...
-   ``
+   ```
    *libvorbis* depends on *libogg* and its build system assumes this directory configuration.
 
 9. Execute Visual Studio and from its menu, select *Open -> Project/Solution...*
