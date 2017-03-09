@@ -50,8 +50,7 @@ run your application and avoid copying them to the Windows system directory.
    Selects the file *OpenAL.sln* generated previously by *CMake*.
    In the Visual Studio tool box, below the menu, select the build mode *Release*. 
    Also in the tool box select the desired architecture: Win32 or x64.
-   Then select the menu *Build -> Build Solution* when the project will start
-   being built. 
+   Then select the menu *Build -> Build Solution* to start the build.
    If everything is OK, the *OpenAL.dll* file should be in the directory "build/Release".
     
 7. Download libogg and libvorbis from https://xiph.org/downloads/.
@@ -105,7 +104,7 @@ run your application and avoid copying them to the Windows system directory.
    `libvorbis\win32\VS2010\x64\Release` for 64 bits or
    `libvorbis\win32\VS2010\Win32\Release` for 64 bits or
 
-11. Copy the dlls: OpenAL32.dll, libogg.dll, libvorbis.dll and libvorbisfile.dll
+11. Copy the dlls: `OpenAL32.dll, libogg.dll, libvorbis.dll` and `libvorbisfile.dll`
     to the directory from which you will execute a G3N application.
 
 
