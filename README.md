@@ -81,29 +81,27 @@ run your application and avoid copying them to the Windows system directory.
    ```
    *libvorbis* depends on *libogg* and its build system assumes this directory configuration.
 
-9. Execute Visual Studio and from its menu, select *Open -> Project/Solution...*
-   Selects the file `libogg\win32\VS2010\libogg_dynamic.sln`.
+9. Execute Visual Studio and from its menu, select *Open -> Project/Solution...*.
+   Select the file `libogg\win32\VS2010\libogg_dynamic.sln`.
    In the Visual Studio tool box, below the menu, select the build mode "Release". 
    Also in the menu box, select the desired architecture: Win32 or x64.
-   Then select the menu *Build -> Build Solution* when the project will start
-   being built.
+   Then select the menu *Build -> Build Solution* to start the build.
    If during the build Visual Studio indicates an error related to
-   installed platform toolset you may need to retarget the solution,
-   selecting the menu *Project -> Retarget solution"* and the try the build again.
-   If everything is OK, the *libogg.dll* file should be in the directory:
+   the installed platform toolset you may need to retarget the solution,
+   selecting the menu *Project -> Retarget solution"* and then try the build again.
+   If everything is OK, then `libogg.dll` file should be in the directory:
    `libogg\win32\VS2010\x64\Release` for 64 bits or
    `libogg\win32\VS2010\Win32\Release` for 64 bits or
 
-10. Execute Visual Studio and from its menu, select *Open -> Project/Solution...*
-   Selects the file `libvorbis\win32\VS2010\vorbis_dynamic.sln`.
+10. Execute Visual Studio and from its menu, select *Open -> Project/Solution...*.
+   Select the file `libvorbis\win32\VS2010\vorbis_dynamic.sln`.
    In the Visual Studio tool box, below the menu, select the build mode *Release*. 
    Also in the menu box, select the desired architecture: Win32 or x64.
-   Then select the menu *Build -> Build Solution* when the project will start
-   being built.
+   Then select the menu *Build -> Build Solution* to start the build.
    If during the build Visual Studio indicates an error related to
-   installed platform toolset you may need to retarget the solution,
-   selecting the menu *Project -> Retarget solution"* and the try the build again.
-   If everything is OK, the libvorbis.dll and libvorbisfile.dll should be in the directory:
+   the installed platform toolset you may need to retarget the solution,
+   selecting the menu *Project -> Retarget solution"* and then try the build again.
+   If everything is OK, then `libvorbis.dll` and `libvorbisfile.dll` should be in the directory:
    `libvorbis\win32\VS2010\x64\Release` for 64 bits or
    `libvorbis\win32\VS2010\Win32\Release` for 64 bits or
 
