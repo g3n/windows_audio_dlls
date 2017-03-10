@@ -86,7 +86,7 @@ run your application and avoid copying them to the Windows system directory.
 9. Execute *Visual Studio* and from its menu select *Open -> Project/Solution...*.
    Select the file `libogg\win32\VS2010\libogg_dynamic.sln`.
    In the *Visual Studio* tool box, below the menu, select the build mode *Release*. 
-   Also in the tool box select the desired architecture: Win32 or x64.
+   Also in the tool box select the desired architecture: x64 or Win32.
    Then select the menu *Build -> Build Solution* to start the build.
    If during the build *Visual Studio* indicates an error related to
    the installed platform toolset you may need to retarget the solution,
@@ -98,7 +98,7 @@ run your application and avoid copying them to the Windows system directory.
 10. Execute *Visual Studio* and from its menu select *Open -> Project/Solution...*.
    Select the file `libvorbis\win32\VS2010\vorbis_dynamic.sln`.
    In the *Visual Studio* tool box, below the menu, select the build mode *Release*. 
-   Also in the tool box select the desired architecture: Win32 or x64.
+   Also in the tool box select the desired architecture: x64 or Win32.
    Then select the menu *Build -> Build Solution* to start the build.
    If during the build *Visual Studio* indicates an error related to
    the installed platform toolset you may need to retarget the solution,
