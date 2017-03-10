@@ -19,7 +19,9 @@ run your application and avoid copying them to the Windows system directory.
 # Guide for building the Windows audio dlls
 
 1. Download and install *Microsoft Studio Community* from https://www.visualstudio.com/downloads/.
-   Wer are assuming here that *Microsoft Studio 2017* will be used.
+   We are assuming here that *Microsoft Studio 2017* will be used. If you are using the previous
+   version of *Microsoft Studio* replace *Microsoft Studio 15 2017* by *Microsoft Studio 14 2015*
+   in the *CMake* command line in item 5.
 
 2. Download and install *CMake* from https://cmake.org/download/
 
@@ -31,7 +33,8 @@ run your application and avoid copying them to the Windows system directory.
    >git checkout tags/openal-soft-1.17.2
    ```
 
-4. Execute the *Developer Command Prompt for VS2017* installed by *Microsoft Visual Studio*.
+4. Execute the *Developer Command Prompt for VS2017* (or the equivalent for the 2015 version)
+   installed by *Microsoft Visual Studio*.
    It is a command prompt window with environment variables correctly initialized to use
    the MS compiler and tools.
 
