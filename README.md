@@ -62,7 +62,7 @@ run your application and avoid copying them to the Windows system directory.
    - http://downloads.xiph.org/releases/ogg/libogg-1.3.2.zip and
    - http://downloads.xiph.org/releases/vorbis/libvorbis-1.3.5.zip
 
-8. Extract both files in the same directory and rename the directories to remove the version suffix:
+8. Extract both files inside the same directory and rename the two directories to remove the version suffix:
    ```
    rename libogg-1.3.2 libogg
    rename libvorbis-1.3.5 libvorbis
