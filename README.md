@@ -19,6 +19,7 @@ run your application and avoid copying them to the Windows system directory.
 # Guide for building the Windows audio dlls
 
 1. Download and install *Microsoft Studio Community* from https://www.visualstudio.com/downloads/.
+   Under the *Workloads* tab, select ***Desktop development with C++***.
    We are assuming here that *Microsoft Studio 2017* will be used. If you are using the previous
    version of *Microsoft Studio* replace *Microsoft Studio 15 2017* by *Microsoft Studio 14 2015*
    in the *CMake* command line in item 5.
