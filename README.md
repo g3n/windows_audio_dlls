@@ -38,7 +38,7 @@ run your application and avoid copying them to the Windows system directory.
    It is a command prompt window with environment variables correctly initialized to use
    the MS compiler and tools.
 
-5. In the command prompt change to the build directory inside the *OpenAL* directory.
+5. In the command prompt navigate to the *build* directory inside the *OpenAL* directory.
    Then execute one the of following commands depending on your platform architecture.
    ```
    >cmake -G "Visual Studio 15 2017 Win64" ..   # To build 64 bit dll OR`
