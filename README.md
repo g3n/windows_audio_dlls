@@ -33,7 +33,7 @@ run your application and avoid copying them to the Windows system directory.
    >git checkout tags/openal-soft-1.17.2
    ```
 
-4. Execute the *Developer Command Prompt for VS2017* (or the equivalent for the 2015 version)
+4. Execute the *Developer Command Prompt for VS 2017* (or the equivalent for the 2015 version)
    installed by *Microsoft Visual Studio*.
    It is a command prompt window with environment variables correctly initialized to use
    the MS compiler and tools.
