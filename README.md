@@ -11,10 +11,13 @@ These libraries are easily installed in Linux systems using the distribution pac
 
 For Windows you can build these libraries from sources using the following procedure
 or if you are a trusting person you can simply use the dlls in this directory which were
-built using this procedure.
+built using this procedure (we used *Microsoft Studio 14 2015*).
 
 In any case it is recommended that you copy these dlls to the directory from which will
 run your application and avoid copying them to the Windows system directory.
+
+You may also need to download the *Microsoft Visual C++ 2015 Redistributable* or
+*Microsoft Visual C++ 2017 Redistributable*. 
 
 # Guide for building the Windows audio dlls
 
