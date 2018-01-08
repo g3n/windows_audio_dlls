@@ -1,5 +1,8 @@
 # Audio libraries for Windows
 
+# THIS REPOSITORY IS DEPRECATED
+# NOW THE AUDIO LIBRARIES AND DLLs FOR WINDOWS ARE INCORPORATED INTO G3N.
+
 The G3N engine audio support currently depends on the following external libraries:
 
 - `OpenAL`        - for spatial audio
